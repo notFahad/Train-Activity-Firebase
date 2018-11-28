@@ -59,10 +59,7 @@ database.ref("/trains").on("child_added", function (snapshot) {
         });
 
     $("#table-data").on("click", "tr span", function () {
-        $("tr").hide();
-        console.log(this);
-        var trainRef = database.ref("/trains/");
-        console.log(trainRef);
+        
     });
 });
 
